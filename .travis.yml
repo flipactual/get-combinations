@@ -1,7 +1,7 @@
 language: node_js
 node_js: "6.0.0"
 install: npm i
-script:
+before_script:
   - yarn run type
   - yarn run lint
   - yarn run test
