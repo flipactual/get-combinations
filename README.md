@@ -18,7 +18,7 @@ Gets all intersections of provided fields
 | Param | Type | Description |
 | --- | --- | --- |
 | fields | <code>Array.&lt;Object&gt;</code> | The fields to compose from |
-| fields[].key |  | The key corresponding to the field |
+| fields[].key |  | The key for the field |
 | fields[].values | <code>Array</code> | The values for the field |
 | combinations | <code>Array.&lt;Object&gt;</code> | The previously composed combinations |
 

@@ -55,7 +55,7 @@ const flatten = require('lodash.flatten');
  * ]);
  *
  * @param  {Object[]} fields          The fields to compose from
- * @param  {}         fields[].key    The key corresponding to the field
+ * @param  {}         fields[].key    The key for the field
  * @param  {Array}    fields[].values The values for the field
  * @param  {Object[]} combinations    The previously composed combinations
  * @return {Object[]}                 The composed combinations
