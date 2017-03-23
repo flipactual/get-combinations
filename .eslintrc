@@ -1,0 +1,12 @@
+parser: babel-eslint
+extends:
+  - airbnb-base
+  - airbnb-flow
+rules:
+  require-jsdoc: [2, {
+    require: {
+      FunctionDeclaration: true,
+      MethodDefinition: true,
+      ClassDeclaration: true
+    }
+  }]

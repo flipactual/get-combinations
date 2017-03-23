@@ -1,0 +1,46 @@
+{
+  "name": "get-combinations",
+  "version": "1.0.0",
+  "description": "Gets all intersections of provided fields",
+  "repository": "flipactual/get-combinations",
+  "author": {
+    "name": "Flip",
+    "id": 1306968,
+    "url": "https://github.com/flipactual"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "jest -c .jestrc",
+    "type": "flow",
+    "lint": "eslint .",
+    "readme": "emdaer",
+    "compile": "babel src -d lib",
+    "prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "babel-cli": "6.23.0",
+    "babel-eslint": "7.1.1",
+    "babel-jest": "19.0.0",
+    "babel-plugin-transform-async-to-generator": "6.22.0",
+    "babel-plugin-transform-flow-strip-types": "6.22.0",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-polyfill": "6.23.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-latest": "6.22.0",
+    "emdaer": "0.3.3",
+    "eslint": "3.16.0",
+    "eslint-config-airbnb-base": "11.1.0",
+    "eslint-config-airbnb-flow": "1.0.2",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jest": "19.0.0",
+    "flow-bin": "0.39.0",
+    "jest": "19.0.0"
+  },
+  "dependencies": {
+    "lodash.flatten": "4.4.0"
+  }
+}

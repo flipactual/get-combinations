@@ -1,0 +1,20 @@
+- title: true
+- shields:
+    style: 'flat-square'
+    shields:
+      - alt: 'flipactual'
+        image: 'badge/😋-flipactual-218AC7.svg'
+        link: 'https://www.flipactual.com/'
+      - alt: 'Travis'
+        image: 'travis/flipactual/get-combinations.svg'
+        link: 'https://travis-ci.org/flipactual/get-combinations/'
+      - alt: 'Node'
+        image: 'node/v/get-combinations.svg'
+        link: 'http://npmjs.com/package/get-combinations'
+      - alt: 'NPM'
+        image: 'npm/v/get-combinations.svg'
+        link: 'http://npmjs.com/package/get-combinations'
+- text: 'Gets all intersections of provided fields'
+- jsdoc: './lib/index.js'
+- include: './docs/scripts.md'
+- license: true
